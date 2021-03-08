@@ -1,0 +1,119 @@
+
+*{
+    margin:10px;
+    padding:10px;
+}
+
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------- Header -----------*/
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.navHeader{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+}
+
+.logoNavHeader{
+    background-color: tomato;
+    flex: 1 1 auto;
+}
+
+.menuNavHeader{
+    background-color: tomato;
+    flex: 4 1 auto;
+}
+
+.xarxesNavHeader{
+    background-color: tomato;
+    flex: 1 1 auto;
+}
+
+.imgHeader{
+    background-color:orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1ImgHeader{
+    background-color: wheat;
+}
+
+/*----------- Main ------------*/
+
+main{
+    background-color: black;
+    display: flex;
+}
+
+.articlesMain{
+    background-color: slategray;
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.articleArticlesMain{
+    background-color:mediumblue;
+    flex: 1 1 40%;
+}
+
+.menuArticlesMain{
+    background-color: skyblue;
+    flex: 1 1 100%;
+}
+
+
+.asideMain{
+    background-color:maroon;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.anunciAsideMain{
+    background-color: peru;
+}
+
+/*-------- Footer ----------*/
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.dadesEmpresaFooter{
+    background-color: salmon;
+}
+
+/*------ MEDIA QUERY - Versio TAULETA ----- Breakpoint a 780 px ------*/
+
+@media only screen and (max-width: 780px){
+    main{
+        background-color: yellow;
+        flex-direction: column;
+    }
+}
+
+
+/*------ MEDIA QUERY - Versio MOBIL ----- Breakpoint a 618 px ------*/
+
+@media only screen and (max-width: 618px){
+    .navHeader{
+        flex-direction: column;
+    }
+}
+
+
